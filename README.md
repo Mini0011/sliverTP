@@ -1,17 +1,21 @@
-# sliver_demo
+# Flutter Music App
 
-A new Flutter project.
+A music app built with Flutter using Sliver widgets.
 
-## Getting Started
+## Features
+- SliverAppBar with collapsing hero image
+- Toggle between Grid and List view
+- Mini player at the bottom
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+| Grid View | List View |
+|-----------|-----------|
+| ![Grid](assets/screenshots/grid_view.png) | ![List](assets/screenshots/list_view.png) |
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Sliver Widgets Used
+- CustomScrollView
+- SliverAppBar
+- SliverGrid
+- SliverList
+- SliverToBoxAdapter
